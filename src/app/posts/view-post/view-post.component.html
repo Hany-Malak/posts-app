@@ -1,0 +1,14 @@
+<div class="row">
+
+<mat-card class="example-card col-4" *ngFor="let post of postDetails">
+    <mat-card-header>
+      <mat-card-title>{{post.name}}</mat-card-title>
+      <mat-card-subtitle>{{post.email}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>{{post.body}}</p>
+      
+    </mat-card-content>
+    
+  </mat-card>
+</div>
